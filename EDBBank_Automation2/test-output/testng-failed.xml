@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.GenericUtilities.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Test3(failed)">
+    <classes>
+      <class name="com.tyss.edbbank.staff.OpenAccount_Approve_DebitCardtest">
+        <methods>
+          <include name="logintoApp"/>
+          <include name="openaccounts"/>
+          <include name="launchBrowser"/>
+          <include name="connectToDB"/>
+          <include name="databaseclose"/>
+        </methods>
+      </class> <!-- com.tyss.edbbank.staff.OpenAccount_Approve_DebitCardtest -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Suite] -->

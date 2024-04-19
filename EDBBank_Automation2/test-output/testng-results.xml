@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[-- DB connected--]]>
+    </line>
+    <line>
+      <![CDATA[-- Browser Launched--]]>
+    </line>
+    <line>
+      <![CDATA[-- Browser Launched--]]>
+    </line>
+    <line>
+      <![CDATA[-- Browser Launched--]]>
+    </line>
+    <line>
+      <![CDATA[-- Banking Application Home Page Displayed--]]>
+    </line>
+    <line>
+      <![CDATA[Execution start from here]]>
+    </line>
+    <line>
+      <![CDATA[-- Banking Application Home Page Displayed--]]>
+    </line>
+    <line>
+      <![CDATA[Execution start from here]]>
+    </line>
+    <line>
+      <![CDATA[-- Banking Application Home Page Displayed--]]>
+    </line>
+    <line>
+      <![CDATA[Execution start from here]]>
+    </line>
+    <line>
+      <![CDATA[Credit_statementExecuted Successfully]]>
+    </line>
+    <line>
+      <![CDATA[FundingAmountExecuted Successfully]]>
+    </line>
+    <line>
+      <![CDATA[openaccountstest Failed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-04-15T14:50:17 IST" name="Suite" finished-at="2024-04-15T14:50:39 IST" duration-ms="21384">
+    <groups>
+    </groups>
+    <test started-at="2024-04-15T14:50:17 IST" name="Test2" finished-at="2024-04-15T14:50:27 IST" duration-ms="9920">
+      <class name="com.tyss.edbbank.staff.CreditCustomer_Statementchecktest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.tyss.edbbank.staff.CreditCustomer_Statementchecktest@14028087]" started-at="2024-04-15T14:50:17 IST" name="launchBrowser" finished-at="2024-04-15T14:50:20 IST" duration-ms="2288" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[-- Browser Launched--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logintoApp()[pri:0, instance:com.tyss.edbbank.staff.CreditCustomer_Statementchecktest@14028087]" started-at="2024-04-15T14:50:20 IST" name="logintoApp" finished-at="2024-04-15T14:50:20 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[-- Banking Application Home Page Displayed--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logintoApp -->
+        <test-method signature="Credit_statement()[pri:0, instance:com.tyss.edbbank.staff.CreditCustomer_Statementchecktest@14028087]" started-at="2024-04-15T14:50:20 IST" name="Credit_statement" finished-at="2024-04-15T14:50:27 IST" duration-ms="7183" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution start from here]]>
+            </line>
+            <line>
+              <![CDATA[Credit_statementExecuted Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Credit_statement -->
+        <test-method is-config="true" signature="databaseclose()[pri:0, instance:com.tyss.edbbank.staff.CreditCustomer_Statementchecktest@14028087]" started-at="2024-04-15T14:50:27 IST" name="databaseclose" finished-at="2024-04-15T14:50:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- databaseclose -->
+      </class> <!-- com.tyss.edbbank.staff.CreditCustomer_Statementchecktest -->
+    </test> <!-- Test2 -->
+    <test started-at="2024-04-15T14:50:17 IST" name="Test1" finished-at="2024-04-15T14:50:36 IST" duration-ms="18808">
+      <class name="com.tyss.edbbank.customer.FundTransfertest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.tyss.edbbank.customer.FundTransfertest@17f62e33]" started-at="2024-04-15T14:50:17 IST" name="launchBrowser" finished-at="2024-04-15T14:50:20 IST" duration-ms="2289" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[-- Browser Launched--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logintoApp()[pri:0, instance:com.tyss.edbbank.customer.FundTransfertest@17f62e33]" started-at="2024-04-15T14:50:20 IST" name="logintoApp" finished-at="2024-04-15T14:50:20 IST" duration-ms="363" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[-- Banking Application Home Page Displayed--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logintoApp -->
+        <test-method signature="FundingAmount()[pri:0, instance:com.tyss.edbbank.customer.FundTransfertest@17f62e33]" started-at="2024-04-15T14:50:20 IST" name="FundingAmount" finished-at="2024-04-15T14:50:36 IST" duration-ms="15949" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution start from here]]>
+            </line>
+            <line>
+              <![CDATA[FundingAmountExecuted Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FundingAmount -->
+        <test-method is-config="true" signature="databaseclose()[pri:0, instance:com.tyss.edbbank.customer.FundTransfertest@17f62e33]" started-at="2024-04-15T14:50:36 IST" name="databaseclose" finished-at="2024-04-15T14:50:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- databaseclose -->
+      </class> <!-- com.tyss.edbbank.customer.FundTransfertest -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-04-15T14:50:17 IST" name="Test3" finished-at="2024-04-15T14:50:39 IST" duration-ms="21384">
+      <class name="com.tyss.edbbank.staff.OpenAccount_Approve_DebitCardtest">
+        <test-method is-config="true" signature="connectToDB()[pri:0, instance:com.tyss.edbbank.staff.OpenAccount_Approve_DebitCardtest@7ce69770]" started-at="2024-04-15T14:50:17 IST" name="connectToDB" finished-at="2024-04-15T14:50:17 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[-- DB connected--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- connectToDB -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.tyss.edbbank.staff.OpenAccount_Approve_DebitCardtest@7ce69770]" started-at="2024-04-15T14:50:17 IST" name="launchBrowser" finished-at="2024-04-15T14:50:20 IST" duration-ms="2503" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[-- Browser Launched--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logintoApp()[pri:0, instance:com.tyss.edbbank.staff.OpenAccount_Approve_DebitCardtest@7ce69770]" started-at="2024-04-15T14:50:20 IST" name="logintoApp" finished-at="2024-04-15T14:50:20 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[-- Banking Application Home Page Displayed--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logintoApp -->
+        <test-method signature="openaccounts()[pri:0, instance:com.tyss.edbbank.staff.OpenAccount_Approve_DebitCardtest@7ce69770]" started-at="2024-04-15T14:50:20 IST" name="openaccounts" finished-at="2024-04-15T14:50:38 IST" duration-ms="18214" status="FAIL">
+          <exception class="org.openqa.selenium.NoAlertPresentException">
+            <message>
+              <![CDATA[no such alert
+  (Session info: chrome=123.0.6312.122)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [406b10786ca93ed59a72e797653b2e9b, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.122, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\ishai\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57334}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57334/devtoo..., se:cdpVersion: 123.0.6312.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 406b10786ca93ed59a72e797653b2e9b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=123.0.6312.122)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [406b10786ca93ed59a72e797653b2e9b, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.122, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\ishai\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57334}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57334/devtoo..., se:cdpVersion: 123.0.6312.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 406b10786ca93ed59a72e797653b2e9b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:592)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1164)
+at com.GenericUtilities.WebDriverUtility.acceptAlert(WebDriverUtility.java:391)
+at com.tyss.edbbank.staff.OpenAccount_Approve_DebitCardtest.openaccounts(OpenAccount_Approve_DebitCardtest.java:119)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoAlertPresentException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Execution start from here]]>
+            </line>
+            <line>
+              <![CDATA[openaccountstest Failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openaccounts -->
+        <test-method is-config="true" signature="databaseclose()[pri:0, instance:com.tyss.edbbank.staff.OpenAccount_Approve_DebitCardtest@7ce69770]" started-at="2024-04-15T14:50:39 IST" name="databaseclose" finished-at="2024-04-15T14:50:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- databaseclose -->
+        <test-method is-config="true" signature="databaseclose()[pri:0, instance:com.tyss.edbbank.staff.OpenAccount_Approve_DebitCardtest@7ce69770]" started-at="2024-04-15T14:50:39 IST" name="databaseclose" finished-at="2024-04-15T14:50:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- databaseclose -->
+      </class> <!-- com.tyss.edbbank.staff.OpenAccount_Approve_DebitCardtest -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
